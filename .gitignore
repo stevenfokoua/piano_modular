@@ -1,0 +1,17 @@
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.piolibbuild/
+
+# IDE
+.vscode/
+.idea/
+
+# System
+desktop.ini
+
+# Compiled files
+*.bin
+*.elf
+*.hex
