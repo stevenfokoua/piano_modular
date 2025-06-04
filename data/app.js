@@ -22,7 +22,7 @@ function updateStatus(text, color = "#555") {
 function connectWebSocket() {
   if (ws && wsConnected) return;
   updateStatus('Connecting...', "#fb8c00");
-  ws = new WebSocket('ws://192.168.4.1/ws');
+  ws = new WebSocket('ws://' + location.hostname + '/ws');
 
   ws.onopen = () => {
     wsConnected = true;
