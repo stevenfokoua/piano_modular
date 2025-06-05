@@ -1,10 +1,17 @@
-.pio
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.piolibbuild/
+
+# IDE
 .vscode/
 .idea/
-.history/
-.vscode-test/
-.vscode-insiders/
-.vscode-server/
-.vscode-remote/
+
+# System
 desktop.ini
-**/desktop.ini
+
+# Compiled files
+*.bin
+*.elf
+*.hex
